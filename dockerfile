@@ -1,5 +1,7 @@
-FROM 3vilgenius/nginx-proxy
+FROM nginx
 
 WORKDIR /code
+
+COPY . /code
 
 EXPOSE 80
